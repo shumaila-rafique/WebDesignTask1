@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+   <div class="container">
+    <header><span class="underline">Re</span>gistration</header>
+
+    <form id="myform" action="#">
+        <div class="form first">
+            <div class="details">
+               <div class="title">Personal Details</div>
+              
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Full Name</label>
+                        <input type="text" required placeholder="Enter your name" name="Full Name" >
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date of Birth</label>
+                        <input type="text" required placeholder="Enter birth date" name="Date of Birth">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Email</label>
+                        <input type="email" required placeholder="Enter your email" name="Email" >
+                    </div>
+
+          
+                    <div class="input-field">
+                        <label>Mobile Number </label>
+                        <input type="tel" required placeholder="Enter mobile number" name="Mobile Number">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Gender</label>
+                        <input type="text" required placeholder="Enter your Gender" name="Gender">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Occupation</label>
+                        <input type="text" required placeholder="Enter your Occupation" name="Occupation" >
+                    </div>
+                </div>
+            </div>
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////-->      
+            
+            <div class="details">
+                <div class="title">Identity Details</div>
+               
+                 <div class="fields">
+                     <div class="input-field">
+                         <label>ID Type</label>
+                         <input type="text" required placeholder="Enter ID Type" name="ID Type">
+                     </div>
+ 
+                     <div class="input-field">
+                         <label>ID Number</label>
+                         <input type="text" required placeholder="Enter ID number" name="ID Number">
+                     </div>
+ 
+                     <div class="input-field">
+                         <label>Issue Authority</label>
+                         <input type="text" required placeholder="Enter issue authority" name="Issue Authority">
+                     </div>
+ 
+           
+                     <div class="input-field">
+                         <label>Issue Date </label>
+                         <input type="text" required placeholder="Enter ID issue date" name="Issue Date">
+                     </div>
+ 
+                     <div class="input-field">
+                         <label>Issue State</label>
+                         <input type="text" required placeholder="Enter ID issue state" name="Issue State">
+                     </div>
+ 
+                     <div class="input-field">
+                         <label>Expiry Date</label>
+                         <input type="text" required placeholder="Enter ID expiry date" name="Expiry Date">
+                     </div>
+                 </div>
+            <button class="nxtbtn" role="button" onclick="showInput(event);">
+                <div>Next</div> 
+                <div class="icon" ><img  src="right-arrow (1).png"> </div>
+            </button>
+
+             </div>
+            </div>
+    </form>
+    <div id="display"><br><br><br><header><span class="underline">Fo</span>rm Data</header></div>
+</div>
+<script src="jscode.js"></script>
+
+</body>
+</html>

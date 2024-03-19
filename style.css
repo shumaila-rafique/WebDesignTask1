@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+
+}
+
+.container{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 500px;
+    box-shadow: 0 10px 10px black;
+    border-radius:6px ;
+    padding:30px;
+    padding-top: 15px;
+   
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.container header{
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.container form{
+    background-color: rgb(237, 237, 237);
+    position: relative;  
+    min-height: 400px;
+    margin-top: 12px;
+}
+
+.details{
+    margin-top: 10px;
+}
+.title{
+    font-size:16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: rgb(160,158,158,1);
+}
+
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap
+
+}
+form .fields .input-field{
+    display: flex;
+    width: calc(100% /3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field label{
+    font-size: 12px;
+    font-weight: 600;
+    color:rgb(77, 73, 73);
+}
+.input-field input{
+    height: 40px;
+    margin: 8px 0;
+    border-radius: 5px;
+    outline:none;
+    font-size: 13px;
+    font-weight: 350;
+    color:rgb(77, 73, 73);
+    border: 1px solid rgb(184, 181, 181);
+    padding-top: 3px;
+    padding-left: 4px;
+   
+}
+
+.nxtbtn {
+    align-items: center;
+    appearance: button;
+    background-color: rgb(80, 118, 213);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue",sans-serif;
+    font-size: 100%;
+    font-weight: 550;
+    line-height: 1.15;
+    margin-top: 20px;
+    padding: 5px 80px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+.icon img{
+    height:30px;
+    padding-top: 2px;
+    margin-left: 20px;
+   
+
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: rgb(80, 118, 213);;
+}
+body{
+   
+    background-color: rgb(80, 118, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
